@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корпорація Монстрів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6347;
+        }
+        .character {
+            margin: 20px;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+        form {
+            margin-top: 30px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+            background-color: #fff;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            margin: 5px 0;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #ff4500;
+        } 
+		nav {
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+    </style>
+</head>
+        <nav>
+            <a class="nav-link" href="">главная</a>
+            <a class="nav-link" href="">трейлер</a>
+            <a class="nav-link" href="">озвучка</a>
+            <a class="nav-link" href="">фильм</a>
+        </nav>
+<body>
+    <h1>Ласкаво просимо до Корпорації Монстрів!</h1>
+    <p>Ми створюємо мультфільми, які наповнюють ваш світ чарами.</p>
+    
+    <div class="character">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0_BowO6MnBxRL7XD42WqOvWR5IS-ROG1iBd_nAfFPN_HnEUPcA17Ho-V7k-rSiS5VlI&usqp=CAU" alt="Монстр Тревор">
+        <h2>Джеймс</h2>
+        <p>Цей монстр завжди готовий до пригод.</p>
+    </div>
+    
+    <div class="character">
+        <img src="https://static.wikia.nocookie.net/disney/images/c/c5/%D0%9C%D0%B0%D0%B9%D0%BA.png/revision/latest/smart/width/250/height/250?cb=20151025165018&path-prefix=ru" alt="Монстр Луна">
+        <h2>Майк</h2>
+        <p>Майк— справжній друг у важкі часи.</p>
+    </div>
+	
+	    <div class="character">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwq1QPWACeSYLQAgiKO7rFzFhIAvwWsqEsdw&s" alt="Монстр Тревор">
+        <h2>Бу</h2>
+        <p>Це дівчинка якій три года.</p>
+    </div>
+	
+        <div class="character">
+        <img src="https://static.wikia.nocookie.net/disney/images/8/86/Randall.png/revision/latest?cb=20150623040053&path-prefix=ru" alt="Монстр Тревор">
+        <h2>Рендалл</h2>
+        <p>він ящероподібний має 3 пари кінцівок.</p>
+    </div>
+    
+
+    <h2>Реєстрація / Вхід</h2>
+    <form action="/submit" method="post">
+        <input type="text" name="username" placeholder="Логін" required>
+        <input type="password" name="password" placeholder="Пароль" required>
+        <input type="submit" value="Увійти">
+    </form>
+
+    <p>Приєднуйтеся до нас та відкрийте нові пригоди!</p>
+</body>
+</html>
